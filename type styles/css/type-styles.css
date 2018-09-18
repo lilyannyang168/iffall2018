@@ -1,0 +1,42 @@
+body {
+	font-size:24px;
+	font-family: 'Ubuntu', sans-serif;
+	height: 80%;
+	width:90%;
+}
+
+p.bold{
+	font-weight: bold;
+}
+p.first{
+	color: gray;
+	font-size: 20px;
+}
+
+p.italic{
+	font-style: italic;
+}
+p.e{
+	letter-spacing: .3em;
+}
+p.m{
+	letter-spacing: -.06em;
+}
+p.underline{
+	text-decoration: underline;
+}
+p.through{
+	text-decoration: line-through;
+}
+p.overline{
+	text-decoration: overline;
+}
+p.uppercase{
+	text-transform: uppercase;
+}
+p.lowercase{
+	text-transform: lowercase;
+}
+p.capitalize{
+	text-transform: capitalize;
+}
