@@ -1,0 +1,117 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 16px;
+}
+
+
+header{
+	/*margin:auto;*/
+	background-color: rgba(255,0,0,.5);
+	background-image: url("https://www.agri-pulse.com/ext/resources/images/Agriculture-photos/Farmscapes/Farm1.jpg?1509734744");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top:162px;
+	padding-bottom:162px;
+	
+}
+header h1{
+
+	margin-top:0px;
+	margin-bottom: 15px;
+	font-size:80px;
+}
+header h3{
+	margin-top: 0;
+	font-size:30px;
+}
+h2{
+	margin-top: 0;
+	font-size:40px;
+}
+
+#section1 {
+	color: white;
+	padding-top: 45px;
+	height: 630px;
+	background-color: pink;
+}
+.text{
+	width: 960px; 
+	font-size: 18px;
+	margin: 0 auto;
+}
+#section1 img {
+	height: 300px;
+	width: 400px;
+	float: right;
+	margin: 0px 0px 35px 35px;
+	display: block;
+}
+
+.text3 {
+	width: 960px; 
+	margin: 0 auto;
+	line-height: 25px;
+	font-size: 18px;
+}
+
+#section2 {
+	color: white;
+	padding-top: 45px;
+	height: 670px;
+	background-color: #3f8cea;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.grid {
+	width: 480px;
+	float: left;
+	display: inline-block;
+}
+
+.grid img {
+	height: 150px;
+	width: 200px;
+	display: block;
+	float: left;
+	padding-right: 11px;
+}
+
+.title {
+	padding: 20px 0px 3px 0px;
+	display: block;
+	height: 150px;
+	width: 480px;
+}
+h4 {
+	font-size: 21px;
+	margin: 1px auto;
+}
+#section3 {
+	height: 355px;
+	color: white;
+	padding-top: 45px;
+	background-color: #ff4425;
+}
+.text2{
+	line-height: 35px;
+	width: 960px; 
+	font-size: 25px;
+	margin: 0 auto;
+	width: 680px;
+}
+#section4 {
+	font-size: 10px;
+	margin: 0 auto;
+	padding-top: 40px;
+	height: 60px;
+	background-color:gray;
+}
+
+
+
+
