@@ -1,0 +1,31 @@
+.a1{
+	right:0px;
+	float:right;
+}
+.box1{
+	position:relative;
+}
+.a2{
+	position:absolute;
+	bottom: -370px;
+	right: 150px;
+}
+
+.a3{
+	background-color:green;
+	position:fixed;
+	top: 0px;
+	right: 0px;
+}
+.a4{
+	background-color:red;
+	position: absolute;
+	left:50%;
+	transform: translateX(-50%);
+}
+.a5{
+	background-color:black;
+	position: absolute;
+	left: calc(50% + 10px);
+	transform: translate(-50%, 10px);
+}
