@@ -1,0 +1,647 @@
+a#btn_cocacola {
+display: block;
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-image: url(http://www.coca-cola.com/content/dam/GO/CokeZone/Common/global/logo/logodesktop/coca-cola-logo-260x260.png);
+				background-size: contain;
+				background-position: center;
+				
+
+
+}
+a#btn_cocacola:hover {
+
+background-image: url(https://www.coca-colacompany.com/content/dam/journey/us/en/private/2014/02/reidel-glass-604-604-337-36dd35cf.rendition.598.336.jpg);
+				
+				background-repeat: no-repeat;
+}
+
+a#btn_apple {
+	display: inline-block;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 80px;
+				padding: 30px 10px 30px 10px;
+				background-color: #999999;
+				color: #fff;
+				font-size:30px;
+				font-family: 'Bai Jamjuree', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+
+				opacity: .3;
+
+}
+a#btn_apple:hover {
+
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3d2LV1pYIgklxFBYhcKYRDhIbmZv5qsjUqcI5B8oRAYPTgzIkWw);
+				
+			
+				background-size: 50%;
+				background-position: center;
+				animation-duration: 2s;
+				opacity: 1;
+				color:black;
+    		
+}
+
+
+a#btn_ibm {
+	display: inline-block;
+				
+				border-style: dashed;
+				border-width:3px;
+				border-color: #246eb8;
+				box-sizing: border-box;
+				height: 100px;
+				width:200px;
+				margin: auto;
+				margin-top: 80px;
+				padding: 50px 10px 50px 10px;
+				
+				color: #fff;
+				font-size:30px;
+				font-family: 'Bai Jamjuree', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVQAAACUCAMAAAD70yGHAAAAeFBMVEX///8fcMEAZL0ZbsAAYrz7/P4Na7/l7PaHqtgAZr0Aab+lveDg6fTR3u+qweK7zedAf8ZllM9smNAvdsPt8vmzx+VYjcxynNKEp9bZ4vGeud8AX7vz9vsAWLkAXLoAWbnJ1+yTsds3e8VRiMp7odRSicrD0+qOrtl2+gupAAAHL0lEQVR4nO2d7XqqOhCFBSIKaq2KVgWt2u56/3d41ArykRUyCZ6n4Lx/JZNkWWyymAy9HsMwDMMwDMMwDGPPz5sFozRKNLIJc2f5s+nXjpc+xkhXigl1EqMERJq5oTmfqQjjvUWUjCAQi/WPeubkoOKoK+opIIbeo+9r7jvmiEzUwCJKAT8QHxPFzD2PGNBzNDUdC+pY3baIesF3F9PmRHUC1XeU4xhSI7dJ1MtfV7BAvwJ0Uf1vPVHpkdsl6kVW9598xPSpO4GWphP6FNom6kVW8daUqPjHJMc3XYj2iXoRY9WMqN5MR1SDGUBRZ3Fgzi4VdfNpEQUSB+PKeF2XHmeH1pM5lnuDuEjUwdiGNErfKopGBxlGUTRENdKhfq/CMAzDMAzDGPK2HprznS7Uom+LKIR+ej3DCOuNSoSz4bDQ+nce+Obss21qbBGlnmCejTcMzSKorKpobzasuIV7/xzxIB2vwd7/ihcqRB2RndRf2mio5AjPlqI6wQGLejKM2XJRPc9WVIVVPSA/R7nTclEdN7VWTEX1sFW9Nbz7Wy9qmD4NNxVVcf+b3v2tF9VPjWZjUeH9b3z3q0xqYc7DpN5ZRNFif+/JPMIOKHDeG0dEovataCgMoSv7CA0qACIyDMMwDMMwz2A2B8yGhCgHHAb7xVvU5tLqDNoksCNJkEG59ZHQ+oMw/TICebLhP0KUpYvCiANsNMcOdIgSoiKCPx6Us6r7FHN9QZh+GbiN92QJY4gltH4USbgf2Ijw16BN5Opv1h8OYu0oJY27J2pmU5WhiFrp+4tgz3RQVOjckUQtWVURxaDqoKgCuRckUUtZ1SR7unuieu+oDVHUQla1QzFnuydqCE9DkW7h4hw2pO/DStRPFyC+CFGWexTm8wAbzWLUaAcXt9EOtZEHyhnLH7A7KT5h+gzDMAzDMAzTBhbvgNO8vnHGFIYh4yizoCNyR6fbVnV5ojaj7H3KCA/gk7apAQpDJVR3G8Hxwnnc1Hn3qe3+8t6fiBeoT5bSDJUbIjJJS+uSqPFB3ZFCVORB+Vtc3ANnFXZIVIEc/3pRPeTrX+UBinund6Rqd0R1awsgYVH97QlF3WzALMNt90XVKCqFRQ2PI+DP+uch+EQkMK/aStQ/9N8/rrv3e6r//uE5isFH199O6RTfews4GhtR8fqNtE6lLgNlK8Oaamo38Dr1tO2tqD1Oe1/wQ5t1KsMwDMMwDMP8RWJY3ZiUoSLIhY4ruNK6lCUiWLnZvWV+T+F8ysQ389qBn+uWDJaB95f/+zZVaCTERy5qHQ5r5lPiNyPwOdvUv2SoKEuf/KIwVH6PCaw1z4nfc1cXnXepNFStFVU3t++ejfgCojoBOpWSUitqb6HVUXoe4BVEdURN8eN6UfXypbOv4BVEvT2mU1Avql5asLhXaXmOqM8+R0UlhJnpN/A5qiBdO3zpFAhLJVvUXmHCaoZAR5lk/OAwVFbKZIoEdrQaEcayWt4vnsNLKB49wzAMwzAM0zgJqheWUCqG9XGYhhtpjRdHLl+JL9R4WQhkJ8AxwphiUr/B05i7A2ykOEYJD7TiY5T73GZlojxsmY/uo+kLm2OUf/PALzSr6vf+N5QHpvMb0HYaKmZH00+ojaaoqjf4hdvchS8kqiPQL5qmqKp09IIP9kqiGpT7KP5kwGRexyv8r3glUQ0K0xRFfYMDCpf5615JVFj9WFfUBN7/xfIszxEVP/cnmdTwub/iuMkcv7hY+hbFKxEeb/EB9woED4plxJ7z3H99Rmgki2dMhijKuvrivpQlbHQeos4TON5h8ekWGtGw6IEf0RiG2i+1ZhiGYRiGYezpjwcWJI1E0SFd3CaENpV8IUnjik9DGRRKSNpAM1mDfeqZbWgF9+gI994TriFYIa5k1FQN7V2lSrWvP6gYbZ3RGW0tMiPy+a9OSqtsExLfJMb2qrSxl1QQhXt/yaBQHlRLRA3T9H87UaelcYbVUwUvJGqa6GgpatmCk1jfryOqlzlElqJ+F8xFT+K7vY6oj0K/lqJOCu5r0Z5+NVEf79K1FLX4VFVWPbwRUbXPbkkQmajwhFgjuI+1C+HQm/QU1jbXPpC95QKb1KphFYm2IwsmjUSpZfv4i9oQejrUzHcrS9F+I4xLpxwJwzAMwzAMY0QysWHQSBRMdSEZEVqDrI37YCtO6i+U4aG0kM1nYE58bCIKDr+omkjLvX5ztIu8hUCvuPFc/Q7aZ1J7QjZm273/lWutCphu1mlDxQ+lm8AmRL1aVTA1s8OieuJDfhamCVGvVhWsItBZUT3xhY6jNyLqMZTZ010W1QvFCucFNyLqWASwiEgHRfVC1zuDxU5zovZOAn7UiKj6SxTJmmLbRJQHbrCSepx5UWPtaIpSYSP0EubLkkp/uNLlyZVkakOqQLK0CnPj57DROKg4JkTEPyIJzuamDBl3wDAMwzAMwzAMw+jzHzzDY53keJ7IAAAAAElFTkSuQmCC);
+				opacity: .5;
+				background-size: contain;
+	background-position: center;
+		background-repeat: no-repeat;
+		
+
+
+}
+a#btn_ibm:hover {
+
+	background-image:url(data:image/png;base64,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);
+	background-size: contain;
+	background-position: center;
+	border-style: solid;
+	background-repeat: no-repeat;
+	opacity: 1;
+
+
+}
+
+a#btn_nerf {
+			display: block;
+			border-radius:30px;
+			padding: 60px 20px 60px 20px;
+			margin: auto;
+			margin-top: 40px;
+			font-family:ubuntu;
+			font-size:70px;
+			background: -webkit-linear-gradient(top, rgba(254,209,48,1) 0%,rgba(234,32,53,1) 100%); 
+			color:white;
+			font-size: 60px;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-decoration: none;
+			
+			
+}
+a#btn_nerf:hover {
+
+			background: -webkit-linear-gradient(top, rgba(234,32,53,1) 0%,rgba(254,209,48,1) 100%);
+
+}
+
+a#btn_michaelkors {
+			font-family: 'Bai Jamjuree', sans-serif;
+			font-size:70px;
+			color:#a38f47;
+			display: block;
+				width: 200px;
+				height: 200px;
+				box-sizing: border-box;
+				border-radius: 100px;
+				margin: auto;
+				margin-top: 30px;
+				padding-top: 8px;
+				background-color: black;
+				text-align: center;
+				text-transform: uppercase;
+					padding: 60px 20px 20px 20px;
+			text-decoration: none;
+}
+a#btn_michaelkors:hover {
+		
+		-webkit-box-shadow: 7px 7px 5px 0px rgba(163, 143, 71, 0.75);
+}
+
+a#btn_sardella {
+	display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 80px;
+		background-color: #ffffff;
+	font-family: 'Amatic SC', cursive;
+	font-size:70px;
+	color:pink;
+	text-decoration: none;
+
+}
+a#btn_sardella:hover {
+
+	text-shadow: 0px 2px 0px rgba(32, 156, 243, 0.68);
+
+
+}
+
+a#btn_craigslist {
+
+
+
+	display: inline-block;
+				height: 60px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 100px;
+		background-color: #ffffff;
+	font-family: roboto, sans-serif;
+	color:#0921ea;
+	font-size:50px;
+	text-decoration: none;
+
+
+}
+a#btn_craigslist:hover {
+
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvLpdG9u7rz2l1n5E6YSYKpQLdIftOpL7h2Z4FLDFAD9CBGo52);
+	color:white;
+}
+
+
+a#btn_lyft {
+	display: block;
+			border-radius:30px;
+			padding: 20px 20px 20px 20px;
+			margin: auto;
+			margin-top: 90px;
+	background-color:#f51686;
+	color:white;
+	font-family: 'Righteous', cursive;
+	font-size:80px;
+	text-decoration: none;
+}
+a#btn_lyft:hover {
+	transform: translateY(-50px);
+	transition-duration: 1s;
+}
+
+a#btn_cartoonnetwork {
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+
+	height: 40px;
+	width:100px;
+	background-color:black;
+
+	font-size:20px;
+
+
+	font-family: 'Luckiest Guy', cursive;
+	color:white;
+
+			
+				
+				padding: 10px 10px 10px 10px;
+
+
+		text-decoration: none;
+
+}
+a#btn_cartoonnetwork:hover {
+	background-color:white;
+	color:black;
+	border-color:black;
+	border-width:3px;
+	border-style: solid;
+}
+
+a#btn_bissingers {
+
+	display: block;
+	margin: auto;
+	border-radius:30px;
+	margin-top: 60px;
+	height: 100px;
+	width:200px;
+	background-color:white;
+	font-family: 'Lobster', cursive;
+		padding: 10px 10px 10px 10px;
+	color:#312d20;
+	font-size:50px;
+	text-decoration:none;
+}
+a#btn_bissingers:hover {
+
+	color:white;
+	background-image:url(https://media.giphy.com/media/kWEwk57Tz6jXa/giphy.gif);
+
+	background-size: contain;
+				background-position: center;
+
+}	
+
+
+a#btn_thetonightshow {
+
+	display: block;
+				width: 200px;
+				height: 200px;
+				box-sizing: border-box;
+				border-radius: 100px;
+				margin: auto;
+				margin-top: 30px;
+				padding-top: 8px;
+				background-image:url(https://upload.wikimedia.org/wikipedia/en/thumb/2/28/TSSJF_Logo.png/250px-TSSJF_Logo.png);
+				background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+}
+a#btn_thetonightshow:hover {
+				transform: rotateY(180deg);
+				transition-duration: 1s;
+				background-image:url(https://cdn.famousoutfits.com/wp-content/uploads/2014/12/jimmy-fallon.png);
+				background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+}
+
+
+a#btn_nike {
+
+	display: block;
+	margin: auto;
+	box-sizing: border-box;
+	margin-top: 100px;
+	height: 100px;
+	width:200px;
+	background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png);
+	background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+
+}
+a#btn_nike:hover {
+
+
+				transition-duration: 1s;
+				background-image:url(https://static.adweek.com/adweek.com-prod/wp-content/uploads/files/blogs/just-do-it-hed-2013.jpg);
+				background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+}
+
+a#btn_missouribotanicalgarden {
+	display: inline-block;
+				height: 130px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 80px;
+				padding: 10px 40px 0 40px;
+				background-color:#426819;
+	font-family: 'Playfair Display SC', serif;
+	color:white;
+	font-size:25px;
+	text-decoration:none;
+
+}
+a#btn_missouribotanicalgarden:hover {
+transform: rotateY(180deg);
+				transition-duration: 1s;
+	background-image:url(https://media1.fdncms.com/riverfronttimes/imager/u/original/6555446/mobot.jpg);
+				background-size: contain;
+				background-position: center;
+				color:transparent;
+				
+	
+}
+
+a#btn_thecolorrun {
+
+	font-family: 'Anton', sans-serif;
+	font-size:25px;
+	text-decoration:none;
+	color:white;
+	background: -webkit-linear-gradient(left, rgba(232,22,139,1) 0%,rgba(236,217,48,1) 28%,rgba(236,217,48,1) 73%,rgba(29,174,235,1) 100%);
+	display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+
+
+}
+a#btn_thecolorrun:hover {
+		transition-duration: 1s;
+		color:#1daeeb;
+		background-color:#1daeeb;
+}
+
+a#btn_moo {
+	display: inline-block;
+				height: 130px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 80px;
+
+	background-color:transparent;
+	display: block;
+	font-family: 'Monoton', cursive;
+	text-decoration:none;
+	font-size:60px;
+	padding-top:30px;
+	color:#1d8968;
+}
+a#btn_moo:hover {
+
+	background-image:url(https://i.vimeocdn.com/portrait/8335707_300x300);
+	transform: rotateY(180deg);
+				transition-duration: 1s;
+				background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+				color:white;
+				font-size:1px;
+}
+
+a#btn_pottermore {
+	display: inline-block;
+				height: 130px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 80px;
+
+	background-image:url(https://ubisafe.org/images/glasses-svg-harry-potter-1.png);
+	background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+	color:black;
+	text-decoration:none;
+	font-family: 'Lora', serif;
+	font-size:20px;
+	opacity:1;
+
+}
+a#btn_pottermore:hover {
+	opacity:0;
+	transition-duration: .5s;
+
+}
+
+a#btn_fitbit {
+display: block;
+	
+				height: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 80px;
+		background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdBsJlmhMRgRW6ARpwfI7oMxptpyV5gXutz51_qujAZc19HVJ0);
+		background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+
+
+
+
+}
+a#btn_fitbit:hover {
+	transform: scale(2);
+	transition-duration: 3s;
+
+}
+
+a#btn_explodingkittens {
+	display: inline-block;
+				height: 130px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 80px;
+				padding: 10px 10px 10px 10px;
+				background-color:black;
+	font-family: 'Anton', sans-serif;
+	font-size:40px;
+	color:white;
+	text-decoration:none;
+
+
+}
+a#btn_explodingkittens:hover {
+
+	color:transparent;
+	
+	background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+	background-color:transparent;
+	background: -webkit-linear-gradient(top, rgba(252,213,67,1) 0%,rgba(233,56,45,1) 100%); 
+	transition-duration:1s;
+
+
+}
+
+a#btn_mollyjogger {
+
+	display: inline-block;
+				height: 100px;
+				box-sizing: border-box;
+
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 80px;
+		background-color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size:70px;
+	color:#3c431e;
+	text-decoration: none;
+}
+a#btn_mollyjogger:hover {
+
+	background-image:url(http://pngimg.com/uploads/fish/fish_PNG25151.png);
+	background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+	color:transparent;
+	
+	transition-duration:1s;
+	background-color:#3c431e; 
+
+}
+
+a#btn_newyorker {
+
+	display: inline-block;
+				
+				border-style: solid;
+				border-width:3px;
+				border-color: black;
+				box-sizing: border-box;
+				height: 70px;
+				width:200px;
+				margin: auto;
+				margin-top: 80px;
+				padding: 50px 10px 50px 10px;
+				
+
+					background-image:url(https://www.thewrap.com/wp-content/uploads/2016/02/TheNewYorker.jpg);
+	background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+	color:transparent;
+}
+a#btn_newyorker:hover {
+
+	
+	transition-duration: 1s;
+	background-image:url(http://albertamagazines.com/wp-content/uploads/2017/07/NewYorkerCover.jpg);
+	background-size: contain;
+				background-position: center;
+			
+}
+
+a#btn_npr {
+
+		display: inline-block;
+				box-sizing: border-box;
+				height: 60px;
+				width:150px;
+				margin: auto;
+				margin-top: 80px;
+				color:transparent;
+			
+				font-size:20px;
+				font-family: 'Bai Jamjuree', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Public_Radio_logo.svg/1200px-National_Public_Radio_logo.svg.png);
+	background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+
+
+
+}
+a#btn_npr:hover {
+		color:white;
+		background:black;
+
+}
+
+a#btn_instagram {
+
+
+	display: inline-block;
+	margin: auto;
+	border-radius:30px;
+	margin-top: 50px;
+	height: 100px;
+	width:100px;
+	background-color:white;
+	font-family: 'Lobster', cursive;
+		padding: 20px 20px 0px 20px;
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+	background: -webkit-linear-gradient(45deg, rgba(247,213,48,1) 0%,rgba(231,23,48,1) 43%,rgba(231,23,48,1) 60%,rgba(139,77,189,1) 100%);
+
+}
+a#btn_instagram:hover {
+
+	text-shadow: 0px 41px 0px rgba(255, 255, 255, 0.78);
+	transition-duration: 1s;
+}
+
+a#btn_facebook {
+
+	display: block;
+	
+				height: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 80px;
+		background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png);
+		background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+}
+a#btn_facebook:hover {
+
+		background-image:url(https://en.facebookbrand.com/wp-content/uploads/2016/05/thumb_icon_header_image_05_2018.png);
+		background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+				transform: rotateY(180deg);
+				transition-duration: 1s;
+
+	
+}
+
+a#btn_oldnavy {
+	box-sizing: border-box;
+			display: inline-block;
+	margin-top:80px;
+	font-family: roboto, sans-serif;
+	color:#074572;
+	font-size:30px;
+	text-decoration: none;
+	width: 160px;
+  height: 80px;
+  
+  border-radius: 50%;
+  padding: 20px 10px 10px 10px;
+  background-color:white;
+
+	
+}
+a#btn_oldnavy:hover {
+	color:white;
+	background-color:#074572;
+
+}
+
+a#btn_stjude {
+
+
+	display: block;
+	
+				height: 120px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 80px;
+		background-image:url(http://1000logos.net/wp-content/uploads/2017/08/logo-St-Jude.jpg);
+		background-size: contain;
+				background-position: center;
+				background-repeat:no-repeat;
+		color:transparent;
+		font-size:30px;
+}
+a#btn_stjude:hover {
+	transition-duration: 1s;
+	background:transparent;
+	text-decoration:none;
+	font-family: 'Lora', serif;
+	font-size:30px;
+	padding: 30px 10px 10px 10px;
+	color:#a20936;
+}
