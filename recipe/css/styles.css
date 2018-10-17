@@ -1,0 +1,52 @@
+
+.ingredients{
+	font-family: 'Pacifico', cursive;
+	color:pink;
+}
+.prepping{
+	font-family: 'Pacifico', cursive;
+	color:pink;
+}
+.cooking{
+	font-family: 'Pacifico', cursive;
+	color:pink;
+}
+
+body{
+	background-color:#701207;
+	color:#cd928a;
+	font-family: 'Niramit', sans-serif;
+	font-size:20px;
+	padding-left: 40px;
+
+}
+img {
+	align-content: center;
+	width: 50%;
+	padding-top:9px;
+	padding-bottom:9px;
+	
+}
+
+.title{
+	font-family: 'Pacifico', cursive;
+	color:pink;
+}
+.section1{
+	background-color:#bc571e;
+	padding-top:9px;
+	padding-bottom:9px;
+	padding-left:9px;
+}
+.section2{
+	background-color:#efbe35;
+	padding-top:9px;
+	padding-bottom:9px;
+	padding-left:9px;
+}
+.steps{
+	font-family: 'Pacifico', cursive;
+	color:pink;
+
+}
+
