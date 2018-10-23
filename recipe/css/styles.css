@@ -2,14 +2,23 @@
 .ingredients{
 	font-family: 'Pacifico', cursive;
 	color:pink;
+	display:block
+margin-left: auto;
+margin-right:auto;
 }
 .prepping{
 	font-family: 'Pacifico', cursive;
 	color:pink;
+	display:block
+margin-left: auto;
+margin-right:auto;
 }
 .cooking{
 	font-family: 'Pacifico', cursive;
 	color:pink;
+	display:block
+margin-left: auto;
+margin-right:auto;
 }
 
 body{
@@ -17,12 +26,13 @@ body{
 	color:white;
 	font-family: 'Niramit', sans-serif;
 	font-size:20px;
-	padding-left: 20px;
+	padding-left:10px;
+	padding-right:10px;
 
 }
 img {
 	align-content: center;
-	width: 80%;
+	width: 100%;
 	padding-top:9px;
 	padding-bottom:9px;
 	
@@ -48,5 +58,11 @@ img {
 	font-family: 'Pacifico', cursive;
 	color:pink;
 
+}
+
+.footnote a{
+	color:pink;
+	background-color:white;
+	margin:auto;
 }
 
