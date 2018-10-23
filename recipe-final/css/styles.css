@@ -98,4 +98,6 @@ ol li:before {
             content: counter(item) ". ";
             counter-increment: item;
             color: pink;
+            font-weight: bold;
+
         }
