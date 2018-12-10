@@ -1,0 +1,44 @@
+section {
+	max-width: 1200px;
+	padding: 0 30px;
+	margin: auto;
+}
+h1{
+	color:#3487e8;
+	font-size:50px;
+font-family: 'Philosopher', sans-serif;
+}
+h4{
+	color:#3487e8;
+	font-family: 'Playfair Display', serif;
+	text-decoration:none;
+
+}
+h2{
+	color:#fdee49;
+	font-family: 'Playfair Display', serif;
+	text-decoration:none;
+}
+p{
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-decoration:none;
+	color:white;
+
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	font-style: italic;
+}
+body{
+	background-color:#92b9e5;
+}
+.work{
+	background-color:#9ec1e6;
+	width:600px;
+	padding-top:10px;
+	padding-bottom:10px;
+
+
+}
